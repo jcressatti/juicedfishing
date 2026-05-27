@@ -25,7 +25,6 @@
     <!-- Header / Nav -->
     <header class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
         <div class="flex items-center space-x-2">
-            <!-- Simple Hook/Fish Icon -->
             <svg class="w-8 h-8 text-fishGold" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"></path>
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 13.5a3 3 0 100-6 3 3 0 000 6z"></path>
@@ -38,24 +37,22 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="max-w-5xl mx-auto px-6 pt-16 pb-24 text-center">
-        <span class="inline-block bg-emerald-950 text-emerald-400 border border-emerald-800 text-xs px-3 py-1 rounded-full font-medium mb-6 uppercase tracking-wider">
-            The Next Evolution of Fishing Competition
+    <section class="max-w-5xl mx-auto px-6 pt-16 pb-20 text-center">
+        <span class="inline-block bg-emerald-950 text-emerald-400 border border-emerald-800 text-xs px-4 py-1.5 rounded-full font-medium mb-6 uppercase tracking-wider">
+            Next-Gen Multi-Angler Tournaments
         </span>
-        <h1 class="text-5xl md:text-6xl font-extrabold text-white tracking-tight max-w-3xl mx-auto leading-tight">
-            Data-Driven Fishing. <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-fishGold to-amber-300">Juiced Results.</span>
+        <h1 class="text-5xl md:text-6xl font-extrabold text-white tracking-tight max-w-4xl mx-auto leading-tight">
+            Stop Just Fishing. <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-fishGold to-amber-300">Juice Your Competition.</span>
         </h1>
         <p class="mt-6 text-lg text-slate-400 max-w-2xl mx-auto">
-            Stop guessing patterns and starting logging success. The Juiced Fishing App combines cutting-edge catch logging, weather analytics, and tournament features designed to maximize your time on the water.
+            The next evolution of WalleyeWizard. Turn any ordinary weekend fishing trip with friends into an immersive, high-stakes tournament experience driven by unique themes and real-time AI logic.
         </p>
 
         <!-- CTA Form -->
         <div id="signup" class="mt-10 max-w-md mx-auto">
-            <!-- Formspree or FormSubmit integration placeholder. Replace Action URL to get actual emails -->
             <form action="https://formsubmit.co/juicedfishing@gmail.com" method="POST" class="flex flex-col sm:flex-row gap-3">
-                <!-- Anti-spam honey pot -->
                 <input type="text" name="_honey" style="display:none">
-                <!-- Disable captcha for seamless redirect if using FormSubmit -->
                 <input type="hidden" name="_captcha" value="false">
                 
                 <input type="email" name="email" placeholder="Enter your email address" required 
@@ -65,54 +62,94 @@
                     Get Early Access
                 </button>
             </form>
-            <p class="text-xs text-slate-500 mt-3">Be the first to know when the new web app drops. Zero spam.</p>
+            <p class="text-xs text-slate-500 mt-3">Be the first to claim your squad domain when the app drops. Zero spam.</p>
         </div>
     </section>
 
-    <!-- Divider Line -->
-    <hr class="border-slate-800 max-w-5xl mx-auto">
+    <!-- Highlight Showcase Block -->
+    <section class="max-w-5xl mx-auto px-6 py-12">
+        <div class="bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-8 md:p-12 shadow-2xl">
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-fishGold">Live Group Features</span>
+                    <h2 class="text-3xl font-black text-white mt-2 mb-4">Unorthodox Tournament Formats</h2>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-4">
+                        Tired of the basic total-weight format? Break your crew into teams for a match-play **Ryder Cup battle**, defend custom titles in crazy **Wrestling-themed main events**, or tackle multi-day endurance stretches modeled after the **Giro d’Italia**.
+                    </p>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Set custom restrictions, point adjustments for specific target slots, and live rulesets on the fly. 
+                    </p>
+                </div>
+                <div class="space-y-4">
+                    <div class="bg-slate-800/40 p-4 rounded-xl border border-slate-700/50">
+                        <div class="text-sm font-bold text-white mb-1">🏆 Ryder Cup Mode</div>
+                        <div class="text-xs text-slate-400">Head-to-head boat matches. Secure points per lake sector to lock down the trophy for your side.</div>
+                    </div>
+                    <div class="bg-slate-800/40 p-4 rounded-xl border border-slate-700/50">
+                        <div class="text-sm font-bold text-white mb-1">🤼 Wrestling Main Event</div>
+                        <div class="text-xs text-slate-400">King of the hill style rules. Land a bigger catch to instantly pinned the current titleholder.</div>
+                    </div>
+                    <div class="bg-slate-800/40 p-4 rounded-xl border border-slate-700/50">
+                        <div class="text-sm font-bold text-white mb-1">🚴 Giro d’Italia Stages</div>
+                        <div class="text-xs text-slate-400">Multi-day tracking with specialized "sprint check-ins" and point bonuses for the King of the Shallows.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Features Grid -->
-    <section class="max-w-6xl mx-auto px-6 py-24">
+    <!-- Core Features Grid -->
+    <section class="max-w-6xl mx-auto px-6 py-16">
         <div class="text-center mb-16">
-            <h2 class="text-3xl font-bold text-white">Built By Anglers, For Anglers</h2>
-            <p class="text-slate-400 mt-2">Everything you need to turn data into dynamic days on the lake.</p>
+            <h2 class="text-3xl font-bold text-white">Engineered For Epic Fishing Trips</h2>
+            <p class="text-slate-400 mt-2">Everything you need to turn standard data into full-blown crew rivalries.</p>
         </div>
 
         <div class="grid md:grid-cols-3 gap-8">
-            <!-- Feature 1 -->
+            <!-- Feature 1: AI Play-by-Play -->
+            <div class="bg-slate-900 border border-slate-800/80 p-8 rounded-2xl relative overflow-hidden">
+                <div class="bg-amber-500/10 text-fishGold w-12 h-12 rounded-xl flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">AI Color Commentary</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Choose from distinct AI personalities that deliver real-time, text-to-speech commentary, live updates, and epic group chat roasts as the leaderboard moves.
+                </p>
+            </div>
+
+            <!-- Feature 2: Real-time Tactical Guide -->
+            <div class="bg-slate-900 border border-slate-800/80 p-8 rounded-2xl">
+                <div class="bg-amber-500/10 text-fishGold w-12 h-12 rounded-xl flex items-center justify-center mb-6">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">On-Water AI Advice</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">
+                    Stuck in a lull? The system analyzes live barometric trend adjustments, wind direction, water clarity data, and active patterns to give clear tactical advice right to your boat.
+                </p>
+            </div>
+
+            <!-- Feature 3: Smart Logs -->
             <div class="bg-slate-900 border border-slate-800/80 p-8 rounded-2xl">
                 <div class="bg-amber-500/10 text-fishGold w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path></svg>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-2">Smart Catch Logging</h3>
+                <h3 class="text-xl font-bold text-white mb-2">Smarter Catch Mapping</h3>
                 <p class="text-slate-400 text-sm leading-relaxed">
-                    Instantly log catches with exact GPS location, depth, clarity, and successful presentations. Build a private data footprint that targets trophy walleye and pike consistently.
-                </p>
-            </div>
-
-            <!-- Feature 2 -->
-            <div class="bg-slate-900 border border-slate-800/80 p-8 rounded-2xl">
-                <div class="bg-amber-500/10 text-fishGold w-12 h-12 rounded-xl flex items-center justify-center mb-6">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                </div>
-                <h3 class="text-xl font-bold text-white mb-2">Real-Time Analytics</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">
-                    Correlate your catch history against shifting weather patterns, barometric pressure drops, and wind directions to predict exactly when the bite turns on.
-                </p>
-            </div>
-
-            <!-- Feature 3 -->
-            <div class="bg-slate-900 border border-slate-800/80 p-8 rounded-2xl">
-                <div class="bg-amber-500/10 text-fishGold w-12 h-12 rounded-xl flex items-center justify-center mb-6">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                </div>
-                <h3 class="text-xl font-bold text-white mb-2">Live Tournaments</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">
-                    Running a crew trip or a local derby? Track multi-angler live leaderboards, set custom rules, and see dynamic updates in real-time right from your boat.
+                    Instantly drop coordinates with precise depths, substrate types, and tackle selections. Build an encrypted private data archive that maps out trophy paths.
                 </p>
             </div>
         </div>
+    </section>
+
+    <!-- Future Roadmap Sneak Peek -->
+    <section class="max-w-4xl mx-auto px-6 py-12 text-center">
+        <h3 class="text-2xl font-bold text-white mb-3">The Future: AI & Equity</h3>
+        <p class="text-slate-400 text-sm max-w-xl mx-auto mb-8">
+            We are working on dynamic group handicaps based on verified skill levels and computer-vision photo scanning to verify lengths completely hands-free.
+        </p>
+        <a href="#signup" class="text-fishGold hover:text-amber-300 font-semibold text-sm inline-flex items-center gap-2 transition">
+            Secure your spot in the alpha tier <span>&rarr;</span>
+        </a>
     </section>
 
     <!-- Footer -->
